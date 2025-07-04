@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+
+.show {
+  height: 100px;
+  width: 300px;
+  border: 2px solid black;
+  font-size: 90px;
+}
+
+.btn_box {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 80px;
+  gap: 50px;
+}
+
+#list {
+  margin-left: 300px;
+  margin-top: 50px;
+  width: 80px;
+  height: 30px;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+h2 {
+  margin-left: 60px;
+}
